@@ -293,6 +293,13 @@ body {
   .news__container {
     flex-wrap: nowrap;
     gap: 22px;
+    overflow: hidden;
+    overflow-x: auto;
+    width: calc(50% + 50vw);
+    scrollbar-width: none;
+  }
+  .news__container::-webkit-scrollbar{
+    display: none;
   }
   .news-card {
     min-width: 212px;
