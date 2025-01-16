@@ -1,0 +1,44 @@
+.our-specialists {
+  padding-top: 91px;
+  padding-bottom: 119px;
+}
+.our-specialists__title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.our-specialists__description {
+  max-width: 471px;
+  margin: 0 auto;
+  font-size: clamp(14px, 4vw, 16px);
+  font-weight: 300;
+  line-height: 160%;
+  color: var(--main-color);
+  text-align: center;
+  margin-bottom: 45px;
+}
+.our-specialists__doctor-cards {
+  display: flex;
+  justify-content: center;
+  column-gap: 50px;
+  row-gap: 10px;
+}
+.doctor-card {
+  width: clamp(155px, 20vw, 285px);
+  background-color: var(--accent-color);
+  border-radius: 20px;
+  color: var(--second-color);
+}
+.doctor-card__img {
+  border-radius: 20px 20px 0 0;
+}
+.doctor-card__text {
+  padding: 22px 0 24px 24px;
+}
+.doctor-card__name {
+  font-weight: 700;
+  font-size: clamp(9px, 2vw, 18px);
+  margin-bottom: 7px;
+}
+.doctor-card__speciality {
+  font-size: clamp(7px, 3vw, 14px);
+}

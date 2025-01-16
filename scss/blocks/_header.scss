@@ -1,0 +1,114 @@
+.navbar-top {
+  width: 100%;
+  min-height: 50px;
+  color: var(--second-color);
+  background-color: var(--accent-color);
+}
+.navbar-top__content {
+  display: flex;
+}
+.location {
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  column-gap: 11px;
+}
+.location__img{
+  width: clamp(11px,2vw,16px);
+}
+.location__text {
+  font-size: clamp(9px, 3vw, 14px);
+}
+.contact {
+  display: flex;
+  column-gap: 40px;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: 55px;
+}
+.contact__phone-link,
+.contact__email-link {
+  display: flex;
+  align-items: center;
+  column-gap: 11px;
+  color: inherit;
+}
+.contact__phone-link:hover .contact__phone-icon {
+  fill: var(--hover-color);
+}
+.contact__phone-link:hover .contact__phone-text {
+  color: var(--hover-color);
+}
+.contact__email-link:hover .contact__email-icon {
+  fill: var(--hover-color);
+}
+.contact__email-link:hover .contact__email-text {
+  color: var(--hover-color);
+}
+.contact__phone-icon {
+  width: 16px;
+  height: 16px;
+  fill: var(--second-color);
+}
+.contact__email-icon {
+  width: 21px;
+  height: 16px;
+  fill: var(--second-color);
+}
+.social {
+  display: flex;
+  align-items: center;
+  column-gap: 31px;
+}
+.social__link:hover .social__icon {
+  fill: var(--hover-color);
+}
+.social__icon {
+  width: 22px;
+  height: 22px;
+  fill: var(--second-color);
+}
+.burger-menu{
+  display: none;
+}
+.navbar-mobile{
+  display: none;
+}
+.navbar-main {
+  width: 100%;
+  height: clamp(51px,11vw,95px);
+  background-color: var(--second-color);
+}
+.navbar-main__content {
+  height: clamp(51px,11vw,95px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-main__logo {
+  width: clamp(91px, 24vw, 172px);
+  height: clamp(23px, 6vw, 44px);
+}
+.menu__list {
+  display: flex;
+  column-gap: 39px;
+}
+.menu__link {
+  font-size: 18px;
+  color: var(--main-color);
+  &:hover {
+    color: var(--accent-color);
+  }
+}
+.navbar-main__button {
+  width: clamp(108px, 25vw, 208px);
+  height: clamp(27px, 7vw, 52px);
+  background-color: var(--button-callback-color);
+  border-radius: 26px;
+  font-size: clamp(7px, 2vw, 14px);
+  color: var(--second-color);
+  text-align: center;
+  &:hover {
+    opacity: 0.9;
+  }
+}
